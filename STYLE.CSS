@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(167, 243, 243);
+    font-size: 60px;
+}
+#navbar{
+    height: 40px;
+    background-color: rgb(17, 16, 16);
+}
+table ,tr,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+    height: 80px;
+}
+th{
+    font-size: 20px;
+}
+#shop{
+    font-size: 25px;
+    color: rgb(22, 22, 21);
+    background-color: rgb(154, 247, 5);
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#login{
+    font-size:30;
+}
+#new{
+    width: 150px;
+}
+#men{
+    width: 150px;
+}
+#women{
+    width: 150px;
+}
+th:hover{
+    background-color: rgb(247, 174, 56);
+}
+#blank{
+    width: 300px;
+}
+.tshop{
+    font-size:50px;
+    padding-left: 45%;
+    padding-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+#BOX11{
+    height: 400px;
+    width: 325px;
+    background-image: url(fox.webp);
+    background-size:cover
+    border: 2px solid white;
+}
+#BOX12{
+    height: 400px;
+    width: 698px;
+    background-image: url(cat.webp);
+    background-size: cover;
+    border: 2px solid white;
+}
+#BOX13{
+    height: 400px;
+    width: 325px;
+    background-image: url(dog.jpg);
+    background-size: cover;
+    border: 2px solid white;
+}
+.BOXX{
+    padding-top: 20px;
+    display: inline-flex;
+}
+#box21{
+    height: 400px;
+    width: 330px;
+    border: 2px solid black;
+    background-image: url(amit.jpg);
+    background-size: cover;
+}
+#box22{
+    height: 400px;
+    width: 330px;
+    border: 2px solid black;
+    background-image: url(amit.jpg);
+    background-size: cover;
+}
+#box23{
+    height: 400px;
+    width: 330px;
+    border: 2px solid black;
+    background-image: url(amit.jpg);
+    background-size: cover;
+}
+#box24{
+    height: 400px;
+    width: 330px;
+    border: 2px solid black;
+    background-image: url(amit.jpg);
+    background-size: cover;
+}
+.boxxx{
+     display: inline-flex;
+     padding: 20px;
+     transition: transfor 1.s;
+}
+.ND{
+     padding-left: 540px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-weight: 100px;
+}
+.whit{
+    height: 100px;
+    width: 100px;
+}
+button{
+    height: 60px;
+    width: 140PX;
+    background-color: black;
+    color: yellow;
+    display: block;
+    border-radius: 45%;
+    font-size: large;
+}
+button:hover{
+    background-color: rgb(231, 252, 3);
+    color: black;
+}
+.BUTTONS{
+    padding-left: 45%;
+}
+#OFFER{
+    font-size: 30;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+#OFF1{
+    height: 800px;
+    width: 65%;
+    background-color: color-mix(in srgb-linear, rgb(240, 119, 119) 20%, rgb(232, 247, 13) 80%);    
+    color: rgb(15, 15, 16);
+}
+#OFF2{
+    height: 800px;
+    width: 35%;
+    background-image: url(whit.jpg);
+    background-position: 5px;
+}
+.OFF{
+    display: flex;
+    margin-top: 20px;
+}
+#OFFF1{
+    height: 300px;
+    width: 20%; 
+    background-color: black;
+    color: aliceblue;
+}
+#OFFF2{
+    height: 300px;
+    width: 80%; 
+    background-color: rgb(247, 247, 251);
+}
+.OFFF{
+    display: flex;
+    margin-top: 20px;
+}
+#OFFFF1{
+    height: 100px;
+    width: 20%; 
+    background-color: aqua;
+    
+    
+}
+#OFFFF2{
+    height: 100px;
+    width: 80%;
+    background-color: rgb(154, 237, 71);
+    color: black;
+}
+.OFFFF{
+    display: flex;
+}
+.sales{
+    display: flexbox;
+    text-align: center;
+    font-size: 40PX;
+}
+.mid{
+    text-align: center;
+    font-size: 170PX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.icon{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 10PX;
+}
+.last{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.TT{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+.TEL{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+.COM{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.rrr{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+a{
+    padding-left: 200px;
+    text-align: center;
+}
+.heading{
+    font-size: 20px;
+    padding-top: 100;
+    font-weight: 50px;
+}
+.firstrow{
+    font-size: 20px;
+}
+.secondrow{
+    font-size: 20px;
+}
+.thirdrow{
+    font-size: 20px;
+}
+#f{
+    margin-left: 15px;
+}
+#su{
+    margin-left: 20px;  
+}
+#k{
+    margin-left: 20px;  
+}
+boxxx:hover{
+    transform: scale(1.1);
+}
